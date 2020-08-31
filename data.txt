@@ -1,0 +1,1 @@
+{ "Load":[ { "name":"LED1", "voltage":"4.94", "voltage_unit":"V", "current":"0.80", "current_unit":"mA" }, { "name":"LED2", "voltage":"4.94", "voltage_unit":"V", "current":"0.80", "current_unit":"mA" } ] } 
