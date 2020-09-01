@@ -21,7 +21,24 @@
         <div class="content">
 		<h1>Power Meter</h1> 
 		<!-- table for showing data -->
-        <table id="power_data"></table> 
-        </div>
+		<table id="power_data"></table> 
+		
+		<table>
+			<tr>
+				<th>LED1 Power</th>
+				<th>LED2 Power</th>
+			</tr>
+			<tr>
+				<td><button class="button" onclick="ledPower('led1','on')">ON</button></td>
+				<td><button class="button" onclick="ledPower('led2','on')">ON</button></td>
+			</tr>
+			<tr>
+				<td><button class="button2" onclick="ledPower('led1','off')">OFF</button></td>
+				<td><button class="button2" onclick="ledPower('led2','off')">OFF</button></td>
+			</tr>
+		</table>
+		</div>
+		
+		
 	</body> 
 </html> 

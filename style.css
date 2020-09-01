@@ -3,12 +3,13 @@ html {
 }
 
 .button { 
-    background-color: #195B6A; border: none; color: white; padding: 16px 40px;   
+    background-color: #195B6A; border: none; color: white; width: 80px; height: 40px;   
     text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;
 }
 
 .button2 {
-    background-color: #77878A;
+    background-color: #77878A; border: none; color: white; width: 80px; height: 40px;
+    text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;
 }
 
 .content {

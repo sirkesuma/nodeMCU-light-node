@@ -16,6 +16,13 @@ async function getapi(url) {
 	} 
 	show(data); 
 } 
+
+async function ledPower(ledName, power) {
+	const url = api_url.concat(ledName,"/",power);
+
+	const r = await fetch(url);
+}
+
 // Calling that async function 
 var myVar = setInterval(getData, 1000);
 
@@ -42,4 +49,7 @@ function show(data) {
 	} 
 	// Setting innerHTML as tab variable 
 	document.getElementById("power_data").innerHTML = tab; 
+	
 } 
+
+
